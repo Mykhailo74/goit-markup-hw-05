@@ -618,6 +618,7 @@ img {
     min-height: 584px;
     background: #FCFCFC;
     border-radius: 4px;
+    padding: 30px;
 }
 
 .modal-close {
@@ -625,4 +626,6 @@ img {
     height: 30px;
     border: 1px solid #999999;
     border-radius: 50%;
+    display: block;
+    margin-left: auto;
 }
