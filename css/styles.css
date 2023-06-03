@@ -619,3 +619,10 @@ img {
     background: #FCFCFC;
     border-radius: 4px;
 }
+
+.modal-close {
+    width: 30px;
+    height: 30px;
+    border: 1px solid #999999;
+    border-radius: 50%;
+}
