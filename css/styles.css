@@ -500,8 +500,8 @@ img {
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.bar-overlay:hover .bar-cover-text,
-.bar-overlay:focus .bar-cover-text {
+.bar-link:hover .bar-cover-text,
+.bar-link:focus .bar-cover-text {
     transform: translate(0, 0);
 }
 
