@@ -607,18 +607,24 @@ img {
     height: 100%;
     background: rgba(46, 47, 66, 0.4);
     top: 0;
+    transition: opacity 300ms linear, visibility 300ms linear;
 }
 
 .modal {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%) scale(1);
+    transition: transform 300ms linear;
     width: 408px;
     min-height: 584px;
     background: #FCFCFC;
     border-radius: 4px;
     padding: 24px;
+}
+
+.backdrop.is-hidden .modal {
+    transform: translate(-50%, -50%) scale(0);
 }
 
 .modal-close {
