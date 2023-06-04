@@ -618,14 +618,17 @@ img {
     min-height: 584px;
     background: #FCFCFC;
     border-radius: 4px;
-    padding: 30px;
+    padding: 24px;
 }
 
 .modal-close {
-    width: 30px;
-    height: 30px;
-    border: 1px solid #999999;
+    width: 24px;
+    height: 24px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    background: #E7E9FC;
     border-radius: 50%;
     display: block;
     margin-left: auto;
+    align-items: center;
+    justify-content: center;
 }
